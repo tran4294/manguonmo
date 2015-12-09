@@ -1,0 +1,126 @@
+@charset "utf-8";
+.header {
+	background-image: url(images/2PARQ03.JPG);
+	height: 110px;
+	border: thick double #000;
+	position: relative;
+}
+.menu {
+	float: left;
+	border: thick double #000;
+	width: 25%;
+	margin-top: 5px;
+	height: 300px;
+	padding-left: 5px;
+}
+.trangchinh {
+	float: right;
+	height: 800px;
+	width: 72%;
+	margin-top: 5px;
+	padding-left: 5px;
+	font-weight: bold;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.trangquantri {
+	font-size: 18px;
+	color: #000;
+	clear: left;
+	float: left;
+	width: 25%;
+	margin-top: 5px;
+	padding-left: 5px;
+	border: thick double #000;
+	height: 300px;
+}
+
+
+
+.header p {
+	font-size: 36px;
+	font-weight: bolder;
+	color: #000;
+	padding-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}
+.nav {
+	margin: 10px;
+	padding: 0px;
+	list-style-image: none;
+	list-style-type: none;
+	right: 0px;
+	bottom: 10px;
+	position: absolute;
+}
+.nav li {
+	display: inline;
+	margin-right: 10px;
+	font-size: 18px;
+}
+.nav a {
+	color: #FF9;
+	text-decoration: none;
+	background-color: rgba(102,51,153,0.75);
+	display: inline-block;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	padding-top: 3px;
+	padding-right: 5px;
+	border-radius: 10px 0px 10px 0px;
+	-webkit-transition: all 0.25s ease-in-out 0s;
+	-moz-transition: all 0.25s ease-in-out 0s;
+	-ms-transition: all 0.25s ease-in-out 0s;
+	-o-transition: all 0.25s ease-in-out 0s;
+	transition: all 0.25s ease-in-out 0s;
+	border: 2px solid #99FF00;
+}
+.welcome {
+	font-size: 18px;
+	clear: left;
+	float: left;
+	margin-top: 5px;
+	padding-left: 5px;
+	border: thick double #000;
+	width: 25%;
+	height: 200px;
+}
+.container {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+html {
+	background-image: url(images/bg_page.png);
+}
+.nav a:hover {
+	background-color: #F33;
+	border-width: 2px;
+	border-color: #339900;
+}
+.copyright {
+	background-color: #CCF;
+	text-align: center;
+	clear: both;
+	width: auto;
+	border: thin dotted #3CF;
+	-webkit-transition: all .25s ease-in-out 0s;
+	-moz-transition: all .25s ease-in-out 0s;
+	-ms-transition: all .25s ease-in-out 0s;
+	-o-transition: all .25s ease-in-out 0s;
+	transition: all .25s ease-in-out 0s;
+}
+.copyright:hover {
+	border-color: #39F;
+	border-width: 2px;
+	background-color: #F00;
+}
