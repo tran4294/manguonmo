@@ -9,7 +9,7 @@
 
 <div class="container">
   <div class="header">
-    <p>BOOKSTORE THANH MAI</p>
+    <p>BOOKSTORE THANH THUY</p>
     <ul class="nav">
       <li><a href="index.php?dk=bando">Bản đồ</a></li>
       <li><a href="index.php?dk=tuyendung">Tuyền dụng</a></li>
